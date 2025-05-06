@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`make_ts correctly generates TypeScript files 1`] = `
+"{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "none",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "lib": [
+      "DOM",
+      "ES6"
+    ],
+    "types": []
+  },
+  "include": [
+    "./**/*.ts",
+    "./**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}"
+`;
+
+exports[`make_ts correctly generates TypeScript files 2`] = `
+{
+  "ct.d.ts": "abc",
+  "keyboardWorkaround.d.ts": "123",
+  "pixi.d.ts": "456",
+  "place.d.ts": "789",
+  "sound.d.ts": "def",
+}
+`;
